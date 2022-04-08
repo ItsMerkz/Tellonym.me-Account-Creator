@@ -1,1 +1,3 @@
-proxies.gay:6968
+Proxies In Here 
+ip:port
+username:password@ip:port
