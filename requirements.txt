@@ -1,0 +1,2 @@
+httpx==0.22.0
+captchatools==1.2.1
