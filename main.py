@@ -17,7 +17,7 @@ def account(self):
             if accesstoken == [""]:
                 print("[!] Failed To Register")
             else:
-                print(f"{Fore.RED}[+]{Fore.RESET} Successfully Registered {Fore.GREEN}{self.accesstoken}{Fore.RESET} ")
+                print(f"{Fore.RED}[+]{Fore.RESET} Successfully Registered {Fore.GREEN}{accesstoken}{Fore.RESET} ")
                 with open("accounts.txt", "a") as f:
                     f.write(f"{accesstoken}\n")
                     f.close()
