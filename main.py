@@ -5,7 +5,7 @@ from colorama import Fore, init
 
 config = json.load(open('./config.json', encoding='utf-8'))
     
-def account(self):
+def account():
     try:
         with open("proxies.txt", "r") as f:
             proxy = "http://" + random.choice(f.readlines()).strip()
